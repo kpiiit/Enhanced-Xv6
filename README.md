@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 # Specification 2 : Scheduling
 
 The default scheduler of xv6 is round-robin based. In this task, four other scheduling policies were implemented and incorporated in xv6. The scheduling policy used by the kernel will be declared by the user during compilation, with the user specifying the scheduling type using predefined flags. The `SCHEDULER` macro was defined in the `Makefile` to handle the compilation of xv6 according to the specified scheduling algorithm done by the flags set by the user. Compilation instructions with the flags have been shown under each of the individual scheduling algorithms.
